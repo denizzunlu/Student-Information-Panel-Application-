@@ -3,7 +3,29 @@
 
 
 
+# TR
+# Öğrenci Bilgi Paneli Uygulaması
 
+Bu PyQt5 uygulaması, öğrenci bilgilerini kaydetmek, görüntülemek, düzenlemek ve silmek için bir arayüz sağlar. SQLite veritabanı kullanılarak bilgiler depolanır.
+
+## Gereksinimler
+
+- Python 3
+- PyQt5
+- SQLite3
+
+## Kullanım
+   
+* Uygulama başladığında, öğrenci bilgilerini eklemek için "Ad", "Soyad", "Okul Numarası" ve "Sınıf" alanlarını doldurun, ardından "Kayıt Ekle" düğmesine tıklayın.
+* Varolan kayıtları görmek, düzenlemek veya silmek için tabloyu kullanın.
+* "Kayıt Sil" düğmesine tıklayarak seçilen bir kaydı silebilirsiniz.
+* "Filtrele" düğmesiyle sınıfa göre filtreleme yapabilirsiniz.
+* "Kayıt Ara" düğmesiyle ad, soyad, okul numarası veya sınıfa göre arama yapabilirsiniz.
+* "Temizle" düğmesine tıklayarak giriş alanlarını temizleyebilirsiniz.
+
+## Ek Bilgiler
+
+- SQLite veritabanı dosyası `veritabani.db` olarak oluşturulur ve mevcut dizine kaydedilir.
 
 
 
@@ -30,32 +52,3 @@ This PyQt5 application provides an interface to record, view, edit and delete st
 ## Additional Information
 
 - The SQLite database file is created as `database.db` and saved in the current directory.
-
-
-
-
-
-
-# TR
-# Öğrenci Bilgi Paneli Uygulaması
-
-Bu PyQt5 uygulaması, öğrenci bilgilerini kaydetmek, görüntülemek, düzenlemek ve silmek için bir arayüz sağlar. SQLite veritabanı kullanılarak bilgiler depolanır.
-
-## Gereksinimler
-
-- Python 3
-- PyQt5
-- SQLite3
-
-## Kullanım
-   
-* Uygulama başladığında, öğrenci bilgilerini eklemek için "Ad", "Soyad", "Okul Numarası" ve "Sınıf" alanlarını doldurun, ardından "Kayıt Ekle" düğmesine tıklayın.
-* Varolan kayıtları görmek, düzenlemek veya silmek için tabloyu kullanın.
-* "Kayıt Sil" düğmesine tıklayarak seçilen bir kaydı silebilirsiniz.
-* "Filtrele" düğmesiyle sınıfa göre filtreleme yapabilirsiniz.
-* "Kayıt Ara" düğmesiyle ad, soyad, okul numarası veya sınıfa göre arama yapabilirsiniz.
-* "Temizle" düğmesine tıklayarak giriş alanlarını temizleyebilirsiniz.
-
-## Ek Bilgiler
-
-- SQLite veritabanı dosyası `veritabani.db` olarak oluşturulur ve mevcut dizine kaydedilir.
